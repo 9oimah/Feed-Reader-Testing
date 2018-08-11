@@ -4,7 +4,7 @@ This project tests the Udacity Feed Reader app using Javascript testing framewor
 
 ## How to run the test
 
-1. Open index.html on your preferred browser
+1. Open index.html in your preferred browser
 2. There should be several test results at the bottom of the screen that says "~ specs, ~ failures".
 
 ## List of defined test cases
