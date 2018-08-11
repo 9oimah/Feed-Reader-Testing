@@ -112,8 +112,8 @@ $(function() {
 			});
 		});
 		/* A test that ensures when a new feed is loaded
-         * by the loadFeed function that the content actually changes.
-         */
+         	* by the loadFeed function that the content actually changes.
+         	*/
 		it('has new content', function(done) {
 			expect(initialEntries).not.toBe(finalEntries);
 			done();
