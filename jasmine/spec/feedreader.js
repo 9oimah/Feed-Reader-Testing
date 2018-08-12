@@ -101,14 +101,11 @@ $(function() {
 		beforeEach(function(done) {
 			loadFeed(0, function() {
 				initialEntries = document.querySelector(".feed").innerHTML;
-				done();
-			});
-		});
-
-		beforeEach(function(done) {
-			loadFeed(1, function() {
-				finalEntries = document.querySelector(".feed").innerHTML;
-				done();
+				
+				loadFeed(1, function() {
+					finalEntries = document.querySelector(".feed").innerHTML;
+					done();
+				});
 			});
 		});
 		/* A test that ensures when a new feed is loaded
